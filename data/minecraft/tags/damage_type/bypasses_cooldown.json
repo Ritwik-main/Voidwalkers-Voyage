@@ -1,0 +1,8 @@
+{
+	"values": [
+		"minecraft:arrow",
+		"minecraft:fireworks",
+
+		"#stellarity:custom_damage_related"
+	]
+}

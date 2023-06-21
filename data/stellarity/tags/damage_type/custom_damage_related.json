@@ -1,0 +1,10 @@
+{
+    "values": [
+        "stellarity:custom_damage/knockback",
+        "stellarity:custom_damage/effects/burning",
+        "stellarity:custom_damage/effects/drowning",
+        "stellarity:custom_damage/effects/freezing",
+        "stellarity:custom_damage/effects/poking",
+        "stellarity:custom_damage/effects/thorns"
+    ]
+}

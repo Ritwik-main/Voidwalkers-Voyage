@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "end_stone",
+    "basalt",
+    "tuff",
+    "blackstone"
+  ]
+}
