@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "stellarity.advancements.end",
+      "fallback": "Voidwalkers Voyage"
+    },
+    "description": {
+      "translate": "stellarity.advancements.end.description",
+      "fallback": "Step into a mystical portal, where a new chapter of your Minecraft journey awaits."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:story/enter_the_end",
+  "criteria": {
+    "activate_portal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

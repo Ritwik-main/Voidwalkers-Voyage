@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_dragon_spawn_egg"
+		},
+		"title": {
+			"translate": "stellarity.advancements.third_times_the_charm",
+			"fallback": "Third Time's the Charm",
+			"color": "#D400FF"
+		},
+		"description": {
+			"translate": "stellarity.advancements.third_times_the_charm.description",
+			"fallback": "Summon the Ender Dragon a third time"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:dragons_den/god_slayer",
+	"criteria": {
+		"kill_dragon_again": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

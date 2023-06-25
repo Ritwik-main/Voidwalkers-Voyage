@@ -1,3 +1,0 @@
-gamerule randomTickSpeed 2
-gamerule universalAnger true
-gamerule forgiveDeadPlayers false
