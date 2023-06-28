@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stellarity:story/enter_the_end",
+  "parent": "minecraft:story/enter_the_end",
   "criteria": {
     "activate_portal": {
       "trigger": "minecraft:impossible"
