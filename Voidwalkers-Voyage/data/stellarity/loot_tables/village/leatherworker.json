@@ -28,22 +28,42 @@
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:leather_chestplate"
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:leather_boots"
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:leather_helmet"
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:leather_leggings"
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",

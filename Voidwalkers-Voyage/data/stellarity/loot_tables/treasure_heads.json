@@ -376,7 +376,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -397,7 +397,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -423,7 +423,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -18,9 +18,6 @@ scoreboard players set #25 stellarity.misc 25
 scoreboard players set #10 stellarity.misc 10
 scoreboard players set #100 stellarity.misc 100
 
-# Remove Holy Protection if a player has it
-execute if entity @s[type=player,tag=stellarity.holy_protection] run function stellarity:items/armors/hallowed_armor/holy_protection/off
-
 # Calculate Armor after Armor Penetration
 # Set to 0 (no armor pen) if scoreboard is not set
 execute unless score #armor_penetration stellarity.misc matches 0..100 run scoreboard players set #armor_penetration stellarity.misc 0

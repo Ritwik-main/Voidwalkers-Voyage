@@ -11,15 +11,29 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"weight": 2,
+					"name": "minecraft:brick",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:clay_ball",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 3,
-								"max": 5
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -34,7 +48,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 4
+								"max": 3
 							},
 							"add": true
 						}
@@ -49,7 +63,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 3,
-								"max": 5
+								"max": 4
 							},
 							"add": true
 						}

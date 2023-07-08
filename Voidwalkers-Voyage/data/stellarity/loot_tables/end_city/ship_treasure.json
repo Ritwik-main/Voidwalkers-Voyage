@@ -3,11 +3,7 @@
 	"pools": [
 		{
 			"rolls": 3,
-			"bonus_rolls": {
-				"type": "minecraft:binomial",
-				"n": 1,
-				"p": 0.25
-			},
+			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -28,7 +24,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"quality": -1,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
@@ -61,14 +56,13 @@
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"quality": 1,
 					"name": "minecraft:emerald",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
+								"min": 1,
 								"max": 3
 							},
 							"add": false
@@ -78,10 +72,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 2
-			},
+			"rolls": 1,
 			"bonus_rolls": 1,
 			"entries": [
 				{
@@ -92,7 +83,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.66
+					"chance": 0.5
 				}
 			]
 		},
@@ -101,11 +92,7 @@
 				"min": 2,
 				"max": 3
 			},
-			"bonus_rolls": {
-				"type": "minecraft:binomial",
-				"n": 1,
-				"p": 0.333
-			},
+			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -115,8 +102,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 5,
-								"max": 7
+								"min": 3,
+								"max": 5
 							}
 						}
 					]
@@ -129,8 +116,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 5,
-								"max": 7
+								"min": 3,
+								"max": 5
 							}
 						}
 					]

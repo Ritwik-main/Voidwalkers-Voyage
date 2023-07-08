@@ -3,14 +3,17 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 6,
-				"max": 9
+				"min": 5,
+				"max": 7
 			},
 			"entries": [
 				{
-					"type": "minecraft:tag",
-					"name": "stellarity:village/fish",
-					"expand": true
+					"type": "minecraft:item",
+					"name": "minecraft:salmon"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod"
 				}
 			]
 		},

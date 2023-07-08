@@ -36,36 +36,6 @@
 							"add": true
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:cave_spider_spawn_egg",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:spider_spawn_egg",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": true
-						}
-					]
 				}
 			]
 		}

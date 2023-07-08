@@ -4,15 +4,14 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 7,
-				"max": 8
+				"min": 5,
+				"max": 6
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
 					"weight": 18,
-					"quality": -1,
 					"name": "minecraft:book",
 					"functions": [
 						{
@@ -29,7 +28,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 16,
-					"quality": -2,
 					"name": "minecraft:paper",
 					"functions": [
 						{
@@ -63,7 +61,7 @@
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
 								"min": 22,
-								"max": 28
+								"max": 2828
 							},
 							"treasure": true
 						}
@@ -76,11 +74,7 @@
 				"min": -2,
 				"max": 1
 			},
-			"bonus_rolls": {
-				"type": "minecraft:binomial",
-				"n": 1,
-				"p": 0.15
-			},
+			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -88,7 +82,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 30,
+							"levels": 35,
 							"treasure": true
 						}
 					]

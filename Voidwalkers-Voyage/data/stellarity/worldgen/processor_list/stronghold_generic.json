@@ -16,7 +16,7 @@
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -34,7 +34,7 @@
 								"facing": "north"
 							}
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -52,7 +52,7 @@
 								"facing": "south"
 							}
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -70,7 +70,7 @@
 								"facing": "east"
 							}
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -88,7 +88,7 @@
 								"facing": "west"
 							}
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -103,7 +103,7 @@
 						"block_state": {
 							"Name": "minecraft:torch"
 						},
-						"probability": 0.66
+						"probability": 0.6
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -129,7 +129,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.091
+						"probability": 0.01
 					},
 					"output_state": {
 						"Name": "minecraft:mossy_stone_bricks"
@@ -142,7 +142,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.068
+						"probability": 0.06
 					},
 					"output_state": {
 						"Name": "minecraft:cracked_stone_bricks"

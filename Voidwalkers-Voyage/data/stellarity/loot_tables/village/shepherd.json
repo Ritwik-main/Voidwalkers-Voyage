@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 5,
-				"max": 7
+				"min": 3,
+				"max": 5
 			},
 			"bonus_rolls": 0,
 			"entries": [
@@ -18,8 +18,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 3,
-								"max": 4
+								"min": 1,
+								"max": 3
 							},
 							"add": true
 						}
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
+								"min": 1,
 								"max": 3
 							},
 							"add": true
@@ -50,7 +50,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
+								"min": 1,
 								"max": 3
 							},
 							"add": true
@@ -66,7 +66,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
+								"min": 1,
 								"max": 3
 							},
 							"add": true
@@ -81,16 +81,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:painting",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
+					"name": "minecraft:painting"
 				}
 			]
 		}

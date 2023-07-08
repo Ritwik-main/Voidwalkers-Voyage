@@ -2,6 +2,10 @@
 	"structures": [
 		{
 			"structure": "minecraft:end_city",
+			"weight": 2
+		},
+		{
+			"structure": "stellarity:village",
 			"weight": 1
 		}
 	],

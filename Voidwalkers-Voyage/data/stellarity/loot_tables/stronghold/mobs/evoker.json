@@ -7,13 +7,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:totem_of_undying",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.2
-						}
-					]
+					"name": "minecraft:totem_of_undying"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 4
 				}
 			],
 			"conditions": [
@@ -35,7 +33,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						},

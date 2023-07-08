@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 7,
-				"max": 9
+				"min": 4,
+				"max": 6
 			},
 			"bonus_rolls": 0,
 			"entries": [
@@ -124,11 +124,6 @@
 							"add": false
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:enchanted_golden_apple"
 				}
 			]
 		}

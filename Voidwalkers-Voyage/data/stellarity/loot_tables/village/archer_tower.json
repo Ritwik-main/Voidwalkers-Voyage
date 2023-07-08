@@ -39,14 +39,8 @@
 						},
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 18,
-							"treasure": true,
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.33
-								}
-							]
+							"levels": 30,
+							"treasure": true
 						}
 					]
 				}

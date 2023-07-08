@@ -12,7 +12,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 14,
-					"quality": -1,
 					"name": "minecraft:book",
 					"functions": [
 						{
@@ -29,7 +28,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 12,
-					"quality": -1,
 					"name": "minecraft:paper",
 					"functions": [
 						{
@@ -46,7 +44,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"quality": -1,
 					"name": "minecraft:candle",
 					"functions": [
 						{
@@ -79,7 +76,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 7,
-					"quality": -1,
 					"name": "minecraft:feather",
 					"functions": [
 						{
@@ -94,7 +90,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"quality": -1,
 					"name": "minecraft:ink_sac",
 					"functions": [
 						{

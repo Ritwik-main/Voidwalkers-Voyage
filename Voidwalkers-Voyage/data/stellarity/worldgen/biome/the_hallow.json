@@ -23,7 +23,7 @@
 			"options": {
 				"type": "cherry_leaves"
 			},
-			"probability": 0.00036
+			"probability": 0.0012
 		}
 	},
 	"spawners": {
@@ -36,12 +36,7 @@
 			}
 		]
 	},
-	"spawn_costs": {
-		"minecraft:vex": {
-			"energy_budget": 0.33,
-			"charge": 1
-		}
-	},
+	"spawn_costs": {},
 	"carvers": {},
 	"features": [
 		[

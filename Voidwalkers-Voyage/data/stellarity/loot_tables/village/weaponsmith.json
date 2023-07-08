@@ -2,70 +2,50 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 4,
-			"bonus_rolls": 0,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 29,
+								"max": 39
 							},
-							"add": false
+							"treasure": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:iron_ingot",
+					"name": "minecraft:golden_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 3
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 29,
+								"max": 39
 							},
-							"add": false
+							"treasure": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:gold_ingot",
+					"name": "minecraft:diamond_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 29,
+								"max": 39
 							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 7,
-					"name": "minecraft:coal",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 3
-							},
-							"add": false
+							"treasure": true
 						}
 					]
 				}
@@ -73,23 +53,49 @@
 		},
 		{
 			"rolls": {
-				"min": 0,
-				"max": 1
+				"min": 5,
+				"max": 7
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_sword"
+					"weight": 10,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							},
+							"add": false
+						}
+					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:golden_sword"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_sword"
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"weight": 8,
+							"name": "minecraft:gold_ingot"
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 8,
+							"name": "minecraft:iron_ingot"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
 				}
 			]
 		}

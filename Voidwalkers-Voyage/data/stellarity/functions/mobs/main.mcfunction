@@ -2,6 +2,7 @@
 # Pixies
 execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!stellarity.pixie,tag=!stellarity.aware] at @s run function stellarity:mobs/pixie/vex_to_pixie
 
+#EOL
 execute as @e[type=marker,tag=stellarity.eol.spawn_animation] at @s run function stellarity:mobs/eol/animations/spawn/loop
 execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:mobs/eol/main
 

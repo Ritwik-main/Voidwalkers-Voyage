@@ -12,6 +12,34 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
+					"name": "minecraft:beetroot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
 					"name": "minecraft:potato",
 					"functions": [
 						{
@@ -43,7 +71,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{

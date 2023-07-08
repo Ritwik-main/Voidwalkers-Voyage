@@ -200,6 +200,33 @@
 			}
 		},
 		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_binary_alt_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/vision",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/vision_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
 			"weight": 3,
 			"element": {
 				"element_type": "minecraft:single_pool_element",

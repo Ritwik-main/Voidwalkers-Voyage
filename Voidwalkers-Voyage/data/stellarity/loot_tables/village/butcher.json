@@ -3,14 +3,25 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 4,
-				"max": 6
+				"min": 5,
+				"max": 7
 			},
 			"entries": [
 				{
-					"type": "minecraft:tag",
-					"name": "stellarity:village/meat",
-					"expand": true
+					"type": "minecraft:item",
+					"name": "minecraft:beef"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mutton"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:porkchop"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit"
 				}
 			]
 		},

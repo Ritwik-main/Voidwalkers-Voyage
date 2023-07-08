@@ -9,7 +9,7 @@
 		"type": "minecraft:random_spread",
 		"salt": 278609929,
 		"exclusion_zone": {
-			"other_set": "stellarity:village",
+			"other_set": "minecraft:end_cities",
 			"chunk_count": 10
 		},
 		"spacing": 16,

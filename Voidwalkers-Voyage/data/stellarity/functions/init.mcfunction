@@ -8,9 +8,18 @@ scoreboard objectives add stellarity.config.always_generate_egg dummy
 function stellarity:config/init
 
 ## Mobs
+# Empress of Light
+scoreboard objectives add stellarity.eol.animation dummy
+scoreboard objectives add stellarity.eol.health dummy
+scoreboard objectives add stellarity.eol.hurt_time dummy
+scoreboard objectives add stellarity.eol.attack_cycle dummy
+scoreboard objectives add stellarity.eol.attack_duration dummy
+scoreboard objectives add stellarity.eol.attack_cooldown dummy
+scoreboard objectives add stellarity.eol.projectile_age dummy
+
 # Ender Dragon
 
-scoreboard objectives add stellarity.phantom.size dummy "Phantom Size"
+scoreboard objectives add stellarity.phantom.size dummy
 
 ## Mechanics
 scoreboard objectives add stellarity.mechanics.void_fishing_length dummy "Void Fishing Length"
@@ -61,6 +70,15 @@ bossbar set stellarity:crystal_count visible true
 bossbar set stellarity:crystal_count players
 bossbar set stellarity:crystal_count max 10
 bossbar set stellarity:crystal_count style notched_10
+
+# Empress of Light
+bossbar add stellarity:eol {"text":"Empress of Light","color":"pink"}
+bossbar set stellarity:eol color pink
+bossbar set stellarity:eol visible true
+bossbar set stellarity:eol players
+bossbar set stellarity:eol max 800
+bossbar set stellarity:eol max 500
+bossbar set stellarity:eol style notched_10
 
 # Scheduling loops that do not need
 # to be executed every single tick

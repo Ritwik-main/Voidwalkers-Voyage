@@ -3,14 +3,10 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 1,
-				"max": 2
+				"min": 4,
+				"max": 7
 			},
-			"bonus_rolls": {
-				"type": "minecraft:binomial",
-				"n": 1,
-				"p": 0.5
-			},
+			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -24,6 +20,20 @@
 									"duration": {
 										"min": 6,
 										"max": 11
+									}
+								},
+								{
+									"type": "minecraft:blindness",
+									"duration": {
+										"min": 4,
+										"max": 12
+									}
+								},
+								{
+									"type": "minecraft:wither",
+									"duration": {
+										"min": 5,
+										"max": 7
 									}
 								}
 							]
@@ -70,7 +80,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 5
+								"max": 3
 							},
 							"add": false
 						}
@@ -85,109 +95,84 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 3
 							},
 							"add": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 1,
-				"max": 2
-			},
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"quality": 2,
+					"weight": 3,
+					"name": "minecraft:obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"quality": 1,
+					"name": "minecraft:crying_obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:purpur_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"quality": -1,
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
 					"name": "minecraft:wither_rose"
 				},
 				{
-					"type": "minecraft:group",
-					"children": [
-						{
-							"type": "minecraft:item",
-							"weight": 3,
-							"quality": 1,
-							"name": "minecraft:obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 5
-									},
-									"add": false
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 3,
-							"quality": 1,
-							"name": "minecraft:crying_obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									},
-									"add": false
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 6,
-							"name": "minecraft:purpur_block",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 1,
-										"max": 4
-									},
-									"add": false
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 10,
-							"quality": -1,
-							"name": "minecraft:end_stone",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 1,
-										"max": 4
-									},
-									"add": false
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 6,
-							"name": "minecraft:dirt",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 1,
-										"max": 3
-									},
-									"add": false
-								}
-							]
-						}
-					]
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:amethyst_shard"
 				}
 			]
 		}
