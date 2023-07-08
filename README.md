@@ -1,7 +1,7 @@
 <h1 align="center">Voidwalkers-Voyage</h1>
 
 <p align="center">
-    <a href="https://discord.gg/fm5Gueng"><img src="https://img.shields.io/discord/923817461550297108?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA" alt="Discord"/></a>
+    <a href="https://discord.gg/xFtghGVCVD"><img src="https://img.shields.io/discord/923817461550297108?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA" alt="Discord"/></a>
     <a href="https://github.com/PhoenixCodingStuff/Voidwalkers-Voyage/stargazers"><img src="https://img.shields.io/github/stars/PhoenixCodingStuff/Voidwalkers-Voyage?style=for-the-badge&logo=github&color=yellow" alt="Stars"/></a>
 </p>
 
