@@ -16,6 +16,14 @@
 - Though not **incompatible** it is advised not to run more than 1 world generation datapack for one dimension.
 - Adding it to an already existing world/server requires you to **reset** The End.
 - Previously known as FSEE, all credits to original developer.
+- Originally made for [SlimeCraftSMP](https://discord.gg/xFtghGVCVD) but I decided to make it public.
+- Removes most of the items and mechanics except some which I would like to keep in [SlimeCraftSMP](https://discord.gg/xFtghGVCVD).
+
+<hr>
+
+<br>
+
+## [Download](https://www.spigotmc.org/resources/voidwalkers-voyage.111067/)
 
 <hr>
 
